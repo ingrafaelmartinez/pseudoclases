@@ -1,0 +1,33 @@
+body{
+    background-color: bisque;
+}
+
+.main-nav{
+    background-color: aquamarine;
+    margin-top: 10px;
+    padding: 0;
+    list-style: none;
+    height: 30px;
+}
+
+.main-nav__item{
+    display: inline-block;
+}
+
+.main-nav__item a{
+    color: #585757;
+    font-size: 20px;
+    text-decoration: none;
+    padding: 5px;
+}
+
+.main-nav__item a:hover{
+    color: white;
+    background-color: blue;
+    text-decoration: underline;
+    font-size: 23px;
+}
+
+.main-nav__item a::after{
+    content: " | ";
+}
